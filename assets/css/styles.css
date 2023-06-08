@@ -1,0 +1,253 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nunito:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap');
+
+
+main {
+    margin-top: 4.9rem;
+    background-image: linear-gradient(#000000, #1b1e23, #181818);
+    color: white;
+}
+
+a, p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+#categorias {
+    scroll-margin-top: 6rem;
+}
+
+#nav-lancamentos {
+    scroll-margin-top: 4rem;
+}
+
+.card-text {
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+}
+
+    /* NavBar */
+
+.navbar-brand img {
+    width: 4.5rem;
+    padding: 1px;
+}
+
+.navbar {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-link {
+    color: #ffffff;
+    margin: .6rem;
+}
+
+.navbar-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #018638;
+}
+
+#pesquisar {
+    padding: .2rem .2rem ;
+}
+
+
+    /* Carousel */
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item a {
+    text-decoration: none;
+}
+
+.carousel-item a:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(31, 31, 31, 0.507));
+    position: absolute;
+}
+    /* Lançamentos */
+
+#lancamentos {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5px;
+    color: #018638;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.589); 
+}
+
+.card-img-top{
+    padding: .5rem;
+}
+
+.card-group {
+    margin: 0px 6.5rem;
+    gap: 5px;
+}
+
+.card {
+    background-color: #1b1e23;
+}
+
+.card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+.card a, h5{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 5px 3px 4px #000000c4;
+}
+
+    /* Categorias .card-categorias */
+
+.card-categorias  {
+    width: 250px;
+    height: 500px;
+}
+
+.card-title, h5{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    background-color: #006427ce;
+    color: #ffffff;
+    margin: 2px;
+}
+
+.nav-link:hover {
+    color: #fdfdfd;
+    background-color: #018638;
+}
+
+ .active {
+   font-weight: bolder;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-body h5 , .card-body-desconto h5 {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-body-desconto {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+p .text-line-through {
+    text-decoration: line-through;
+    color: #555555;
+    padding: 0px;
+    margin: 0px;
+    grid-area: preco1;
+}
+
+.card-text-desconto {
+    background-color: #02722dce;
+    border: 1px solid #006427ce;
+    border-radius: 5px;
+    width: 45px;
+    grid-area: desconto;
+    margin-left: 70px;
+    text-align: center;
+
+}
+
+.desconto-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-line {
+    color: #555555;
+}
+
+.btn {
+    background-color: #006427ce;
+    border: transparent;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: x-large;
+    padding: 3px;
+}
+
+.btn:hover{
+    background-color: #03b44d;
+    transition: 0.5s ease;
+    border: transparent;
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px #000f06cb;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+.footer-sac a:hover {
+    text-decoration: none;
+    color: #018638;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pfooter , .footer-sac a {
+    color: #8d8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.img-footer {
+    padding: .5rem;
+
+}
+
+.img-footer:hover {
+    border: 1px solid #018638;
+    border-radius: 5px;
+    transition: 0.1s;
+    box-shadow: 5px 5px 10px #018638;
+}
+
+
+
+
