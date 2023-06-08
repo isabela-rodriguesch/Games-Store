@@ -65,6 +65,14 @@ a, p {
     height: 500px;
 }
 
+.carousel-inner p {
+    font-weight: lighter;
+}
+
+.carousel-inner h5 {
+    font-weight: bolder;
+}
+
 .carousel-item a {
     text-decoration: none;
 }
